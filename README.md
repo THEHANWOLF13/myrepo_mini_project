@@ -10,20 +10,27 @@ Softwares Required:
   SPAdes
   Bowtie2
   
- Run miniproject_main.py for the desired output
+ Run miniproject_main.py for the desired output:
   this pipeline contains test data for the first 40,000 lines of transcriptome data for HCMV (first 10000 reads)
   
   
 To run the script, first clone the repo via the following command
   'git clone https://github.com/THEHANWOLF13/myrepo_mini_project.git'
   
-  
+ Notable outputs from miniproject_main.py:
+ 
+ miniproject.log -> contains results of the full pipeline
+ EF999921.fasta -> contains HCMV genome
+ EF999921_CDS.fasta -> contains coding sequences for the HCMV genome
+ LargeContig.txt -> shows all contigs exceeding 1000 bp
+ 
+ 
  Notable files included in this repo:
  
- Transcriptom_index.py -> used to generate input for Kaliisto
- Sleuth_input.py -> converts Kallisto output into suitable input for Sleuth
- sleuth.r -> performs sleuth
- runSleuth.py -> runs sleuth in python
+ Transcriptom_index.py -> used to generate input for Kaliisto,
+ Sleuth_input.py -> converts Kallisto output into suitable input for Sleuth,
+ sleuth.r -> performs sleuth,
+ runSleuth.py -> runs sleuth in python,
  
  
  
