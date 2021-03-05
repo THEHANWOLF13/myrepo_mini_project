@@ -3,11 +3,11 @@
 We are interested in analyzing transcriptomes of Human Herpes Virus 5
 
 Softwares Required:
-  Linux/Unix
-  Python3
-  Biopython
-  Kallisto
-  SPAdes
+  Linux/Unix,
+  Python3,
+  Biopython,
+  Kallisto,
+  SPAdes,
   Bowtie2
   
  Run miniproject_main.py for the desired output:
@@ -30,7 +30,7 @@ To run the script, first clone the repo via the following command
  Transcriptom_index.py -> used to generate input for Kaliisto,
  Sleuth_input.py -> converts Kallisto output into suitable input for Sleuth,
  sleuth.r -> performs sleuth,
- runSleuth.py -> runs sleuth in python,
+ runSleuth.py -> runs sleuth in python
  
  
  
