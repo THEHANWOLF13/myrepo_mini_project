@@ -15,10 +15,12 @@ Softwares Required:
   
   
 To run the script, first clone the repo via the following command
-  git clone https://github.com/THEHANWOLF13/myrepo_mini_project.git
+  'git clone https://github.com/THEHANWOLF13/myrepo_mini_project.git'
   
   
  Notable files included in this repo:
+ 
+ 
  
  
   
