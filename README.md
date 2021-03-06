@@ -17,6 +17,12 @@ Softwares Required:
 To run the script, first clone the repo via the following command
   'git clone https://github.com/THEHANWOLF13/myrepo_mini_project.git'
   
+This will create a local repository.
+  
+Within the local repo, run the following command:
+
+'python3 miniproject_main.py'
+  
  Notable outputs from miniproject_main.py:
  
  miniproject.log -> contains results of the full pipeline
